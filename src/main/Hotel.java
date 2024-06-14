@@ -14,6 +14,10 @@ public class Hotel {
     public double getRate() {
         return rate;
     }
+    
+    public String getName() {
+        return name;
+    }
 
     @Override
     public boolean equals(Object o) {
